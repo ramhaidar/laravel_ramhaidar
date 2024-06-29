@@ -20,7 +20,7 @@ return new class extends Migration
             $table->foreignId ( 'rumah_sakit_id' )
                 ->nullable ()
                 ->constrained ( 'rumah_sakits' )
-                ->onDelete ( 'cascade' ); // Menambahkan on delete cascade
+                ->onDelete ( 'cascade' );
             $table->timestamps ();
         } );
 

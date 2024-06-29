@@ -1,66 +1,63 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# Screening Web Programmer
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+## Soal A
 
-## About Laravel
-
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
-
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
-
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
-
-## Learning Laravel
-
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
-
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
-
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+-   Soal B
+    -   Running Code
+        -   ![alt text](/screenshots/sshot-20240629-222355.png)
+    -   Halaman Login (Menggunakan Username dan Bukan Email)
+        -   Username: admin | Password: admin123
+        -   ![alt text](/screenshots/sshot-20240629-223202.png)
+    -   Halaman Dashboard
+        -   ![alt text](/screenshots/sshot-20240629-223305.png)
+    -   Halaman Rumah Sakit (CRUD Rumah Sakit)
+        -   ![alt text](/screenshots/sshot-20240629-223338.png)
+        -   Create Rumah Sakit
+            -   ![alt text](/screenshots/sshot-20240629-223558.png)
+            -   ![alt text](/screenshots/sshot-20240629-223649.png)
+            -   ![alt text](/screenshots/sshot-20240629-223706.png)
+        -   Edit Rumah Sakit
+            -   ![alt text](/screenshots/sshot-20240629-223729.png)
+            -   ![alt text](/screenshots/sshot-20240629-223915.png)
+            -   ![alt text](/screenshots/sshot-20240629-223934.png)
+            -   ![alt text](/screenshots/sshot-20240629-223952.png)
+        -   Delete Rumah Sakit
+            -   ![alt text](/screenshots/sshot-20240629-224017.png)
+            -   ![alt text](/screenshots/sshot-20240629-224040.png)
+            -   ![alt text](/screenshots/sshot-20240629-224053.png)
+    -   Halaman Pasien (CRUD Pasien)
+        -   ![alt text](/screenshots/sshot-20240629-224207.png)
+        -   Create Pasien
+            -   ![alt text](/screenshots/sshot-20240629-225415.png)
+            -   ![alt text](/screenshots/sshot-20240629-225438.png)
+            -   ![alt text](/screenshots/sshot-20240629-225501.png)
+        -   Edit Pasien
+            -   ![alt text](/screenshots/sshot-20240629-225908.png)
+            -   ![alt text](/screenshots/sshot-20240629-230040.png)
+            -   ![alt text](/screenshots/sshot-20240629-230100.png)
+            -   ![alt text](/screenshots/sshot-20240629-230124.png)
+        -   Delete Pasien
+            -   ![alt text](/screenshots/sshot-20240629-230156.png)
+            -   ![alt text](/screenshots/sshot-20240629-230212.png)
+            -   ![alt text](/screenshots/sshot-20240629-230245.png)
+        -   Filter Pasien Berdasarkan Rumah Sakit
+            -   ![alt text](/screenshots/sshot-20240629-230419.png)
+            -   ![alt text](/screenshots/sshot-20240629-230456.png)
+            -   ![alt text](/screenshots/sshot-20240629-230525.png)
+    -   Logout
+        -   ![alt text](/screenshots/sshot-20240629-230555.png)
+    -   Relasi tabel Data Pasien dengan tabel Rumah Sakit
+        -   ![alt text](/screenshots/sshot-20240629-230929.png)
+    -   Tombol Hapus Menggunakan AJAX
+        -   Tombol Hapus Rumah Sakit
+            -   ![alt text](/screenshots/sshot-20240629-233400.png)
+            -   ![alt text](/screenshots/sshot-20240629-233612.png)
+        -   Tombol Hapus Pasien
+            -   ![alt text](/screenshots/sshot-20240629-233642.png)
+            -   ![alt text](/screenshots/sshot-20240629-233705.png)
+    -   Dropdown Filter Berdasarkan Rumah Sakit Pada CRUD Data Pasien Menggunakan AJAX
+        -   ![alt text](/screenshots/sshot-20240629-233824.png)
+        -   ![alt text](/screenshots/sshot-20240629-233850.png)
+    -   Script Migration dan Seeder
+        -   [Migrations](/database/migrations)
+        -   [Seeders](/database/seeders)

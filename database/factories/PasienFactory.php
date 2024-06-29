@@ -17,18 +17,10 @@ class PasienFactory extends Factory
      */
     public function definition () : array
     {
-        // return [ 
-        //     'nama_pasien'    => $this->faker->name,
-        //     'alamat'         => $this->faker->address,
-        //     'no_telepon'     => $this->faker->phoneNumber,
-        //     'rumah_sakit_id' => RumahSakit::factory (),
-        // ];
-
         return [ 
             'nama_pasien' => $this->faker->name,
             'alamat'      => $this->faker->address,
             'no_telepon'  => $this->faker->phoneNumber,
-            // 'rumah_sakit_id' => RumahSakit::factory(), // ini akan diisi oleh seeder
         ];
     }
 }

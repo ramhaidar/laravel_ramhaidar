@@ -1,4 +1,3 @@
-<!-- resources/views/rumah_sakit/index.blade.php -->
 @extends('layouts.app')
 
 @section('content')

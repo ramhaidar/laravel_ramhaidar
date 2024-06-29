@@ -55,10 +55,8 @@ class RumahSakitController extends Controller
 
     public function destroy ( $id )
     {
-        // Hapus data pasien terkait
         Pasien::where ( 'rumah_sakit_id', $id )->delete ();
 
-        // Hapus data rumah sakit
         $rumahSakit = RumahSakit::findOrFail ( $id );
         $rumahSakit->delete ();
         return response ()->json ( [ 'success' => 'Rumah Sakit deleted successfully' ] );

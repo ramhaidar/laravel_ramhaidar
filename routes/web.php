@@ -5,19 +5,18 @@ use App\Http\Controllers\AuthController;
 use App\Http\Controllers\PasienController;
 use App\Http\Controllers\RumahSakitController;
 
-// Route::get ( '/', function ()
-// {
-//     return view ( 'welcome' );
-// } );
+Route::middleware ( [ 'guest' ] )->group ( function ()
+{
+    Route::get ( 'login', [ AuthController::class, 'showLoginForm' ] )->name ( 'login' );
+    Route::post ( 'login', [ AuthController::class, 'login' ] );
+} );
+
+Route::post ( 'logout', [ AuthController::class, 'logout' ] )->name ( 'logout' );
 
 Route::get ( '/', function ()
 {
     return redirect ()->route ( 'login' );
 } );
-
-Route::get ( 'login', [ AuthController::class, 'showLoginForm' ] )->name ( 'login' );
-Route::post ( 'login', [ AuthController::class, 'login' ] );
-Route::post ( 'logout', [ AuthController::class, 'logout' ] )->name ( 'logout' );
 
 Route::middleware ( [ 'auth' ] )->group ( function ()
 {
@@ -28,7 +27,6 @@ Route::middleware ( [ 'auth' ] )->group ( function ()
 
     Route::resource ( 'rumah_sakit', RumahSakitController::class);
     Route::resource ( 'pasien', PasienController::class);
-    // Route::get ( 'pasien/filter', [ PasienController::class, 'filter' ] )->name ( 'pasien.filter' );
     Route::get ( 'pasien/filter/{id}', [ PasienController::class, 'filter' ] )->name ( 'pasien.filter' );
 
     Route::get ( 'rumah_sakit/{id}/edit', [ RumahSakitController::class, 'edit' ] )->name ( 'rumah_sakit.edit' );

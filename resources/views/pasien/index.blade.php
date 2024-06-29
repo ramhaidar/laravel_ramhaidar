@@ -153,6 +153,7 @@
                 });
             });
 
+
             $('#createForm').on('submit', function(e) {
                 e.preventDefault();
                 $.ajax({
