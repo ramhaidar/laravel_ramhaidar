@@ -3,6 +3,17 @@
 ## Soal A
 
 -   Soal B
+
+    -   Requirement
+
+        -   JavaScript
+            -   ![alt text](/screenshots/sshot-20240629-234406.png)
+            -   ![alt text](/screenshots/sshot-20240629-234501.png)
+        -   JQuery
+            -   ![alt text](/screenshots/sshot-20240629-234303.png)
+        -   Bootstrap
+            -   ![alt text](/screenshots/sshot-20240629-234303.png)
+
     -   Running Code
         -   ![alt text](/screenshots/sshot-20240629-222355.png)
     -   Halaman Login (Menggunakan Username dan Bukan Email)
