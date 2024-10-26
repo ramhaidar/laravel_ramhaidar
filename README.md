@@ -1,5 +1,7 @@
 # Screening Web Programmer
 
+This project is a Laravel-based web application featuring user authentication, CRUD functionality, and various data management capabilities. Developed as a comprehensive backend solution, it includes modules for managing users, data tables, and visual elements. With pre-configured authentication (username: admin, password: admin123), this application provides a ready-to-deploy structure for scalable web applications.
+
 ## Soal A
 
 -   Soal B
